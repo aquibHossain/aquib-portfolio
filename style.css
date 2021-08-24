@@ -1,5 +1,7 @@
 body{
     font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+
 }
 h1{
     font-size: 50px;
@@ -8,9 +10,12 @@ h1{
 {
     color: orange;
 }
-section
+#top-section
 {
     display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .first{
    width: 50%;
@@ -27,4 +32,12 @@ section
      font-weight: 400;
      color: white;
      
+}
+#second-section
+{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
