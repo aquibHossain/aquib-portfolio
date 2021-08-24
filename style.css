@@ -41,3 +41,39 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience
+{
+   
+}
+.box{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+.shadow{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px  gray;
+
+}
+.border-one{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image:linear-gradient(purple,rgb(173, 92, 228));
+    border-image-slice: 1;
+}
+.border-two{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image:linear-gradient(red,rgb(226, 160, 158));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
