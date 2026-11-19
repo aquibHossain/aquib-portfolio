@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aquib Hossain builds websites and renovates them. Portfolio, experience, and how to get in touch."
+    />
+    <meta name="theme-color" content="#100e0c" />
+    <title>Aquib Hossain — Developer</title>
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        var stored = localStorage.getItem("aquib-theme");
+        document.documentElement.setAttribute(
+          "data-theme",
+          stored === "light" ? "light" : "dark"
+        );
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p>
+        Aquib Hossain builds websites and renovates them. This page needs
+        JavaScript. Reach him on LinkedIn:
+        https://www.linkedin.com/in/aquib-hossain-386b08164/
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
